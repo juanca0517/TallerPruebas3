@@ -1,5 +1,5 @@
 describe('Los estudiantes login', function() {
-    /*it('Visits los estudiantes and fails at login', function() {
+    it('Visits los estudiantes and fails at login', function() {
         cy.visit('https://losestudiantes.co')
 	cy.contains('Cerrar').click()
 	cy.contains('Ingresar').click()
@@ -52,7 +52,7 @@ describe('Los estudiantes login', function() {
 	cy.contains('Cerrar').click()
 	cy.contains('Busca un profesor o materia').click()
 	cy.get('div[class="Select-input"]').find('input[role="combobox"]').type("Maria Carolina Olarte Olarte")
-})*/
+})
    it('Acceder a la pagina de un profesor', function(){
 	cy.visit('https://losestudiantes.co')
 	cy.contains('Cerrar').click()
