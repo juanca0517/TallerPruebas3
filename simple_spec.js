@@ -66,6 +66,5 @@ describe('Los estudiantes login', function() {
 	cy.get('.profesores').get('.profesor').find('a[href="universidad-de-los-andes/matematicas/profesores/adolfo-jose-quiroz-salazar"]').click()	
 	cy.get('.labelHover').find('input[name="id:MATE1209"]').click()
 	cy.get('.labelHover').find('input[name="id:MATE1214C"]').click()
-	cy.get('.labelHover').find('input[name="id:MATE1214C"]').click()
 })
 })
