@@ -44,6 +44,7 @@ describe('Los estudiantes login', function() {
 	cy.get('.cajaSignUp').find('input[name="acepta"]').click()
 	cy.get('.cajaSignUp').contains('Registrarse').click()	
 	cy.contains('Ya existe un usuario registrado con el correo')
+
 	cy.contains('Ok').click()
 })
 
